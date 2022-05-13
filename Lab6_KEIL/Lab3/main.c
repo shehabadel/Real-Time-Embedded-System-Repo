@@ -13,13 +13,11 @@
 void Delay(int count);
 
 void Init (void);
-xTaskHandle uart0task;
 void UART0Txchar(char a) ;
 
 
 
 static void vSender1Task( void *pvParameters );
-static void vSender2Task( void *pvParameters );
 static void vReceiverTask( void *pvParameters );
 
 
@@ -38,9 +36,9 @@ int main( void )
 	if( xQueue != NULL )
 	{
 				
-		xTaskCreate( vSender1Task, (const portCHAR *)"Sender1", configMINIMAL_STACK_SIZE, NULL, 1, NULL );	
-		xTaskCreate( vSender2Task, (const portCHAR *)"Sender2", configMINIMAL_STACK_SIZE, NULL, 1, NULL );
-		xTaskCreate( vReceiverTask, (const portCHAR *)"Receiver", configMINIMAL_STACK_SIZE, NULL, 2, &uart0task );
+		xTaskCreate( vSender1Task, (const portCHAR *)"Sender1", configMINIMAL_STACK_SIZE, (void *)100, 1, NULL );	
+		//xTaskCreate( vSender2Task, (const portCHAR *)"Sender2", configMINIMAL_STACK_SIZE, NULL, 1, NULL );
+		xTaskCreate( vReceiverTask, (const portCHAR *)"Receiver", configMINIMAL_STACK_SIZE, NULL, 2, NULL );
 
 		vTaskStartScheduler();
 	}
@@ -54,73 +52,28 @@ int main( void )
 
 /*-----------------------------------------------------------*/
 
-static void vSender1Task( void *pvParameters )
-{
-
-
-	for( ;; )
-	{
-			
-		if(((	GPIO_PORTF_DATA_R >>4) &1)==0)
-		{
-			do
-			{
-				Delay(20);
-			}
-			while(((	GPIO_PORTF_DATA_R >>4) &1)==1);
-			counter++;
-			while(((	GPIO_PORTF_DATA_R >>4) &1)==0);
-			do
-			{
-				Delay(20);
-			}
-			while(((	GPIO_PORTF_DATA_R >>4) &1)==0);
-			taskYIELD();
+static void vSender1Task( void *pvParameters ){
+int z=0;
+long lValue;
+portBASE_TYPE xStatus;
+lValue = (long) pvParameters;
+	for(;;){
+		xStatus = xQueueSendToBack(xQueue,&lValue,0);
+		if(xStatus!=pdPASS){
+			z++;
 		}
-			
-	}
+	}	
+
 }
 
 
 
-static void vSender2Task( void *pvParameters )
-{
 
-	portBASE_TYPE xStatus;
-	unsigned portBASE_TYPE uxPriority;
-	uxPriority=uxTaskPriorityGet(NULL);
-
-	
-	for( ;; )
-	{
-		if(((	GPIO_PORTF_DATA_R >>0) &1)==0)
-		{
-			do
-			{
-				Delay(20);
-			}
-			while(((	GPIO_PORTF_DATA_R >>0) &1)==1);
-			vTaskPrioritySet(uart0task,(uxPriority-1));
-			
-			xStatus = xQueueSendToBack( xQueue, &counter, 0 );		
-			counter=0;
-			vTaskPrioritySet(uart0task,(uxPriority+1));
-			while(((	GPIO_PORTF_DATA_R >>0) &1)==0);
-			do
-			{
-				Delay(20);
-			}
-			while(((	GPIO_PORTF_DATA_R >>0) &1)==0);
-			taskYIELD();
-		}
-	}
-	
-}
 /*-----------------------------------------------------------*/
 
 static void vReceiverTask( void *pvParameters )
 {
-
+	int x=0;
   char lReceivedValue=0;
 	portBASE_TYPE xStatus;
 	const portTickType xTicksToWait = 100000 / portTICK_RATE_MS;
@@ -129,7 +82,12 @@ static void vReceiverTask( void *pvParameters )
 	{
 		
 		xStatus = xQueueReceive( xQueue, &lReceivedValue, xTicksToWait );
-		UART0Txchar(lReceivedValue);
+		
+		if(xStatus==pdPASS){
+			
+		}else{
+			x++;
+		}
 
 	}
 }
