@@ -1,0 +1,136 @@
+Dependencies for Project 'Lab4', Target 'IO': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x60D4BF3C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (tm4c123gh6pm.h)(0x5388606A)
+I (..\Source\include\FreeRTOS.h)(0x59C6AF4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x59C6AF35)
+I (..\Source\include\projdefs.h)(0x59C6AF4D)
+I (..\Source\include\portable.h)(0x59C6AF4C)
+I (..\Source\include\deprecated_definitions.h)(0x59C6AF4C)
+I (..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60D46E3E)
+I (..\Source\include\mpu_wrappers.h)(0x59C6AF4C)
+I (..\Source\include\task.h)(0x59C6AF4D)
+I (..\Source\include\list.h)(0x59C6AF4C)
+I (..\Source\include\queue.h)(0x59C6AF4D)
+I (..\Source\include\semphr.h)(0x59C6AF4D)
+I (..\Source\include\timers.h)(0x59C6AF4D)
+I (..\Source\include\StackMacros.h)(0x59C6AF4D)
+I (LCD.h)(0x60D4BF3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9B2678)
+I (Uart.h)(0x60D4A4AF)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+F (..\Source\croutine.c)(0x59C6AF4C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\croutine.o --omf_browse .\croutine.crf --depend .\croutine.d)
+I (..\Source\include\FreeRTOS.h)(0x59C6AF4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x59C6AF35)
+I (..\Source\include\projdefs.h)(0x59C6AF4D)
+I (..\Source\include\portable.h)(0x59C6AF4C)
+I (..\Source\include\deprecated_definitions.h)(0x59C6AF4C)
+I (..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60D46E3E)
+I (..\Source\include\mpu_wrappers.h)(0x59C6AF4C)
+I (..\Source\include\task.h)(0x59C6AF4D)
+I (..\Source\include\list.h)(0x59C6AF4C)
+I (..\Source\include\croutine.h)(0x59C6AF4C)
+F (..\Source\list.c)(0x59C6AF4C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\list.o --omf_browse .\list.crf --depend .\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (..\Source\include\FreeRTOS.h)(0x59C6AF4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x59C6AF35)
+I (..\Source\include\projdefs.h)(0x59C6AF4D)
+I (..\Source\include\portable.h)(0x59C6AF4C)
+I (..\Source\include\deprecated_definitions.h)(0x59C6AF4C)
+I (..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60D46E3E)
+I (..\Source\include\mpu_wrappers.h)(0x59C6AF4C)
+I (..\Source\include\list.h)(0x59C6AF4C)
+F (..\Source\queue.c)(0x59C6AF4C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\queue.o --omf_browse .\queue.crf --depend .\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (..\Source\include\FreeRTOS.h)(0x59C6AF4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x59C6AF35)
+I (..\Source\include\projdefs.h)(0x59C6AF4D)
+I (..\Source\include\portable.h)(0x59C6AF4C)
+I (..\Source\include\deprecated_definitions.h)(0x59C6AF4C)
+I (..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60D46E3E)
+I (..\Source\include\mpu_wrappers.h)(0x59C6AF4C)
+I (..\Source\include\task.h)(0x59C6AF4D)
+I (..\Source\include\list.h)(0x59C6AF4C)
+I (..\Source\include\queue.h)(0x59C6AF4D)
+F (..\Source\tasks.c)(0x59C6AF4C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\tasks.o --omf_browse .\tasks.crf --depend .\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (..\Source\include\FreeRTOS.h)(0x59C6AF4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x59C6AF35)
+I (..\Source\include\projdefs.h)(0x59C6AF4D)
+I (..\Source\include\portable.h)(0x59C6AF4C)
+I (..\Source\include\deprecated_definitions.h)(0x59C6AF4C)
+I (..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60D46E3E)
+I (..\Source\include\mpu_wrappers.h)(0x59C6AF4C)
+I (..\Source\include\task.h)(0x59C6AF4D)
+I (..\Source\include\list.h)(0x59C6AF4C)
+I (..\Source\include\timers.h)(0x59C6AF4D)
+I (..\Source\include\StackMacros.h)(0x59C6AF4D)
+F (..\Source\timers.c)(0x59C6AF4C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\timers.o --omf_browse .\timers.crf --depend .\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (..\Source\include\FreeRTOS.h)(0x59C6AF4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x59C6AF35)
+I (..\Source\include\projdefs.h)(0x59C6AF4D)
+I (..\Source\include\portable.h)(0x59C6AF4C)
+I (..\Source\include\deprecated_definitions.h)(0x59C6AF4C)
+I (..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60D46E3E)
+I (..\Source\include\mpu_wrappers.h)(0x59C6AF4C)
+I (..\Source\include\task.h)(0x59C6AF4D)
+I (..\Source\include\list.h)(0x59C6AF4C)
+I (..\Source\include\queue.h)(0x59C6AF4D)
+I (..\Source\include\timers.h)(0x59C6AF4D)
+F (..\Source\portable\RVDS\ARM_CM4F\port.c)(0x59C6AF50)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\port.o --omf_browse .\port.crf --depend .\port.d)
+I (..\Source\include\FreeRTOS.h)(0x59C6AF4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x59C6AF35)
+I (..\Source\include\projdefs.h)(0x59C6AF4D)
+I (..\Source\include\portable.h)(0x59C6AF4C)
+I (..\Source\include\deprecated_definitions.h)(0x59C6AF4C)
+I (..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60D46E3E)
+I (..\Source\include\mpu_wrappers.h)(0x59C6AF4C)
+I (..\Source\include\task.h)(0x59C6AF4D)
+I (..\Source\include\list.h)(0x59C6AF4C)
+F (..\Source\portable\MemMang\heap_2.c)(0x59C6AF50)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\heap_2.o --omf_browse .\heap_2.crf --depend .\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (..\Source\include\FreeRTOS.h)(0x59C6AF4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x59C6AF35)
+I (..\Source\include\projdefs.h)(0x59C6AF4D)
+I (..\Source\include\portable.h)(0x59C6AF4C)
+I (..\Source\include\deprecated_definitions.h)(0x59C6AF4C)
+I (..\Source\portable\RVDS\ARM_CM4F\portmacro.h)(0x60D46E3E)
+I (..\Source\include\mpu_wrappers.h)(0x59C6AF4C)
+I (..\Source\include\task.h)(0x59C6AF4D)
+I (..\Source\include\list.h)(0x59C6AF4C)
+F (.\startup_rvmdk.S)(0x59C6AF35)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 529"--list .\startup_rvmdk.lst --xref -o .\startup_rvmdk.o --depend .\startup_rvmdk.d)
+F (.\LCD.c)(0x60D4BF3C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (LCD.h)(0x60D4BF3C)
+I (tm4c123gh6pm.h)(0x5388606A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9B2678)
+F (.\LCD.h)(0x60D4BF3C)()
+F (.\Uart.c)(0x60D4BF3C)(-c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I . -I .. -I ..\..\.. -I ..\Source -I ..\Source\include -I ..\Source\portable\RVDS\ARM_CM4F-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="529" -Drvmdk -DPART_LM4F120H5QR-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (Uart.h)(0x60D4A4AF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (tm4c123gh6pm.h)(0x5388606A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (LCD.h)(0x60D4BF3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5D9B2678)
+F (.\Uart.h)(0x60D4A4AF)()

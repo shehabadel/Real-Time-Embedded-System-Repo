@@ -1,0 +1,1294 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Shehab Adel, Ain Shams, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\Senior1\Semester 8\Real-Time and Embedded Systems Design\Labs\Real-Time-Embedded-System-Repo\Project\Temperature Project_Team17\TempProj_Team17.uvprojx
+Project File Date:  06/01/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(1): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(59): warning: In file included from...
+./RTE/RTOS\FreeRTOSConfig.h(46): warning: In file included from...
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(298): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(338): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(357): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(713): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(729): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(774): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(779): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(872): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(885): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(892): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(897): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(904): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(910): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(917): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(924): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(929): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(936): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(942): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(949): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(956): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(961): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(968): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(974): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(981): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(988): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(993): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1000): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1006): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1013): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1020): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1025): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1032): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1038): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1045): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1052): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1057): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1064): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1070): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1077): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1084): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1089): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1096): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1102): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123GH6PM.h(1251): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(352): warning: 'INT_ADC0SS0' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS0             INT_CONCAT(INT_ADC0SS0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(62): note: previous definition is here
+#define INT_ADC0SS0             30          // ADC0 Sequence 0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(353): warning: 'INT_ADC0SS1' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS1             INT_CONCAT(INT_ADC0SS1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(63): note: previous definition is here
+#define INT_ADC0SS1             31          // ADC0 Sequence 1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(354): warning: 'INT_ADC0SS2' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS2             INT_CONCAT(INT_ADC0SS2_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(64): note: previous definition is here
+#define INT_ADC0SS2             32          // ADC0 Sequence 2
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(355): warning: 'INT_ADC0SS3' macro redefined [-Wmacro-redefined]
+#define INT_ADC0SS3             INT_CONCAT(INT_ADC0SS3_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(65): note: previous definition is here
+#define INT_ADC0SS3             33          // ADC0 Sequence 3
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(356): warning: 'INT_ADC1SS0' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS0             INT_CONCAT(INT_ADC1SS0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(92): note: previous definition is here
+#define INT_ADC1SS0             64          // ADC1 Sequence 0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(357): warning: 'INT_ADC1SS1' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS1             INT_CONCAT(INT_ADC1SS1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(93): note: previous definition is here
+#define INT_ADC1SS1             65          // ADC1 Sequence 1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(358): warning: 'INT_ADC1SS2' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS2             INT_CONCAT(INT_ADC1SS2_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(94): note: previous definition is here
+#define INT_ADC1SS2             66          // ADC1 Sequence 2
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(359): warning: 'INT_ADC1SS3' macro redefined [-Wmacro-redefined]
+#define INT_ADC1SS3             INT_CONCAT(INT_ADC1SS3_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(95): note: previous definition is here
+#define INT_ADC1SS3             67          // ADC1 Sequence 3
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(361): warning: 'INT_CAN0' macro redefined [-Wmacro-redefined]
+#define INT_CAN0                INT_CONCAT(INT_CAN0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(85): note: previous definition is here
+#define INT_CAN0                55          // CAN0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(362): warning: 'INT_CAN1' macro redefined [-Wmacro-redefined]
+#define INT_CAN1                INT_CONCAT(INT_CAN1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(86): note: previous definition is here
+#define INT_CAN1                56          // CAN1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(363): warning: 'INT_COMP0' macro redefined [-Wmacro-redefined]
+#define INT_COMP0               INT_CONCAT(INT_COMP0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(73): note: previous definition is here
+#define INT_COMP0               41          // Analog Comparator 0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(364): warning: 'INT_COMP1' macro redefined [-Wmacro-redefined]
+#define INT_COMP1               INT_CONCAT(INT_COMP1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(74): note: previous definition is here
+#define INT_COMP1               42          // Analog Comparator 1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(369): warning: 'INT_FLASH' macro redefined [-Wmacro-redefined]
+#define INT_FLASH               INT_CONCAT(INT_FLASH_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(76): note: previous definition is here
+#define INT_FLASH               45          // Flash Memory Control and EEPROM
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(370): warning: 'INT_GPIOA' macro redefined [-Wmacro-redefined]
+#define INT_GPIOA               INT_CONCAT(INT_GPIOA_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(48): note: previous definition is here
+#define INT_GPIOA               16          // GPIO Port A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(371): warning: 'INT_GPIOB' macro redefined [-Wmacro-redefined]
+#define INT_GPIOB               INT_CONCAT(INT_GPIOB_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(49): note: previous definition is here
+#define INT_GPIOB               17          // GPIO Port B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(372): warning: 'INT_GPIOC' macro redefined [-Wmacro-redefined]
+#define INT_GPIOC               INT_CONCAT(INT_GPIOC_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(50): note: previous definition is here
+#define INT_GPIOC               18          // GPIO Port C
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(373): warning: 'INT_GPIOD' macro redefined [-Wmacro-redefined]
+#define INT_GPIOD               INT_CONCAT(INT_GPIOD_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(51): note: previous definition is here
+#define INT_GPIOD               19          // GPIO Port D
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(374): warning: 'INT_GPIOE' macro redefined [-Wmacro-redefined]
+#define INT_GPIOE               INT_CONCAT(INT_GPIOE_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(52): note: previous definition is here
+#define INT_GPIOE               20          // GPIO Port E
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(375): warning: 'INT_GPIOF' macro redefined [-Wmacro-redefined]
+#define INT_GPIOF               INT_CONCAT(INT_GPIOF_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(78): note: previous definition is here
+#define INT_GPIOF               46          // GPIO Port F
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(402): warning: 'INT_HIBERNATE' macro redefined [-Wmacro-redefined]
+#define INT_HIBERNATE           INT_CONCAT(INT_HIBERNATE_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(87): note: previous definition is here
+#define INT_HIBERNATE           59          // Hibernation Module
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(403): warning: 'INT_I2C0' macro redefined [-Wmacro-redefined]
+#define INT_I2C0                INT_CONCAT(INT_I2C0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(56): note: previous definition is here
+#define INT_I2C0                24          // I2C0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(404): warning: 'INT_I2C1' macro redefined [-Wmacro-redefined]
+#define INT_I2C1                INT_CONCAT(INT_I2C1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(83): note: previous definition is here
+#define INT_I2C1                53          // I2C1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(405): warning: 'INT_I2C2' macro redefined [-Wmacro-redefined]
+#define INT_I2C2                INT_CONCAT(INT_I2C2_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(103): note: previous definition is here
+#define INT_I2C2                84          // I2C2
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(406): warning: 'INT_I2C3' macro redefined [-Wmacro-redefined]
+#define INT_I2C3                INT_CONCAT(INT_I2C3_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(104): note: previous definition is here
+#define INT_I2C3                85          // I2C3
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(415): warning: 'INT_PWM0_0' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_0              INT_CONCAT(INT_PWM0_0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(58): note: previous definition is here
+#define INT_PWM0_0              26          // PWM0 Generator 0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(416): warning: 'INT_PWM0_1' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_1              INT_CONCAT(INT_PWM0_1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(59): note: previous definition is here
+#define INT_PWM0_1              27          // PWM0 Generator 1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(417): warning: 'INT_PWM0_2' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_2              INT_CONCAT(INT_PWM0_2_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(60): note: previous definition is here
+#define INT_PWM0_2              28          // PWM0 Generator 2
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(418): warning: 'INT_PWM0_3' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_3              INT_CONCAT(INT_PWM0_3_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(89): note: previous definition is here
+#define INT_PWM0_3              61          // PWM Generator 3
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(419): warning: 'INT_PWM0_FAULT' macro redefined [-Wmacro-redefined]
+#define INT_PWM0_FAULT          INT_CONCAT(INT_PWM0_FAULT_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(57): note: previous definition is here
+#define INT_PWM0_FAULT          25          // PWM0 Fault
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(420): warning: 'INT_PWM1_0' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_0              INT_CONCAT(INT_PWM1_0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(122): note: previous definition is here
+#define INT_PWM1_0              150         // PWM1 Generator 0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(421): warning: 'INT_PWM1_1' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_1              INT_CONCAT(INT_PWM1_1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(123): note: previous definition is here
+#define INT_PWM1_1              151         // PWM1 Generator 1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(422): warning: 'INT_PWM1_2' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_2              INT_CONCAT(INT_PWM1_2_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(124): note: previous definition is here
+#define INT_PWM1_2              152         // PWM1 Generator 2
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(423): warning: 'INT_PWM1_3' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_3              INT_CONCAT(INT_PWM1_3_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(125): note: previous definition is here
+#define INT_PWM1_3              153         // PWM1 Generator 3
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(424): warning: 'INT_PWM1_FAULT' macro redefined [-Wmacro-redefined]
+#define INT_PWM1_FAULT          INT_CONCAT(INT_PWM1_FAULT_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(126): note: previous definition is here
+#define INT_PWM1_FAULT          154         // PWM1 Fault
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(425): warning: 'INT_QEI0' macro redefined [-Wmacro-redefined]
+#define INT_QEI0                INT_CONCAT(INT_QEI0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(61): note: previous definition is here
+#define INT_QEI0                29          // QEI0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(426): warning: 'INT_QEI1' macro redefined [-Wmacro-redefined]
+#define INT_QEI1                INT_CONCAT(INT_QEI1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(84): note: previous definition is here
+#define INT_QEI1                54          // QEI1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(428): warning: 'INT_SSI0' macro redefined [-Wmacro-redefined]
+#define INT_SSI0                INT_CONCAT(INT_SSI0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(55): note: previous definition is here
+#define INT_SSI0                23          // SSI0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(429): warning: 'INT_SSI1' macro redefined [-Wmacro-redefined]
+#define INT_SSI1                INT_CONCAT(INT_SSI1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(80): note: previous definition is here
+#define INT_SSI1                50          // SSI1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(430): warning: 'INT_SSI2' macro redefined [-Wmacro-redefined]
+#define INT_SSI2                INT_CONCAT(INT_SSI2_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(96): note: previous definition is here
+#define INT_SSI2                73          // SSI2
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(431): warning: 'INT_SSI3' macro redefined [-Wmacro-redefined]
+#define INT_SSI3                INT_CONCAT(INT_SSI3_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(97): note: previous definition is here
+#define INT_SSI3                74          // SSI3
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(432): warning: 'INT_SYSCTL' macro redefined [-Wmacro-redefined]
+#define INT_SYSCTL              INT_CONCAT(INT_SYSCTL_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(75): note: previous definition is here
+#define INT_SYSCTL              44          // System Control
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(433): warning: 'INT_SYSEXC' macro redefined [-Wmacro-redefined]
+#define INT_SYSEXC              INT_CONCAT(INT_SYSEXC_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(121): note: previous definition is here
+#define INT_SYSEXC              122         // System Exception (imprecise)
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(435): warning: 'INT_TIMER0A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER0A             INT_CONCAT(INT_TIMER0A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(67): note: previous definition is here
+#define INT_TIMER0A             35          // 16/32-Bit Timer 0A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(436): warning: 'INT_TIMER0B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER0B             INT_CONCAT(INT_TIMER0B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(68): note: previous definition is here
+#define INT_TIMER0B             36          // 16/32-Bit Timer 0B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(437): warning: 'INT_TIMER1A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER1A             INT_CONCAT(INT_TIMER1A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(69): note: previous definition is here
+#define INT_TIMER1A             37          // 16/32-Bit Timer 1A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(438): warning: 'INT_TIMER1B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER1B             INT_CONCAT(INT_TIMER1B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(70): note: previous definition is here
+#define INT_TIMER1B             38          // 16/32-Bit Timer 1B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(439): warning: 'INT_TIMER2A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER2A             INT_CONCAT(INT_TIMER2A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(71): note: previous definition is here
+#define INT_TIMER2A             39          // 16/32-Bit Timer 2A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(440): warning: 'INT_TIMER2B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER2B             INT_CONCAT(INT_TIMER2B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(72): note: previous definition is here
+#define INT_TIMER2B             40          // 16/32-Bit Timer 2B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(441): warning: 'INT_TIMER3A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER3A             INT_CONCAT(INT_TIMER3A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(81): note: previous definition is here
+#define INT_TIMER3A             51          // 16/32-Bit Timer 3A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(442): warning: 'INT_TIMER3B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER3B             INT_CONCAT(INT_TIMER3B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(82): note: previous definition is here
+#define INT_TIMER3B             52          // Timer 3B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(443): warning: 'INT_TIMER4A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER4A             INT_CONCAT(INT_TIMER4A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(105): note: previous definition is here
+#define INT_TIMER4A             86          // 16/32-Bit Timer 4A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(444): warning: 'INT_TIMER4B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER4B             INT_CONCAT(INT_TIMER4B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(106): note: previous definition is here
+#define INT_TIMER4B             87          // 16/32-Bit Timer 4B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(445): warning: 'INT_TIMER5A' macro redefined [-Wmacro-redefined]
+#define INT_TIMER5A             INT_CONCAT(INT_TIMER5A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(107): note: previous definition is here
+#define INT_TIMER5A             108         // 16/32-Bit Timer 5A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(446): warning: 'INT_TIMER5B' macro redefined [-Wmacro-redefined]
+#define INT_TIMER5B             INT_CONCAT(INT_TIMER5B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(108): note: previous definition is here
+#define INT_TIMER5B             109         // 16/32-Bit Timer 5B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(451): warning: 'INT_UART0' macro redefined [-Wmacro-redefined]
+#define INT_UART0               INT_CONCAT(INT_UART0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(53): note: previous definition is here
+#define INT_UART0               21          // UART0
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(452): warning: 'INT_UART1' macro redefined [-Wmacro-redefined]
+#define INT_UART1               INT_CONCAT(INT_UART1_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(54): note: previous definition is here
+#define INT_UART1               22          // UART1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(453): warning: 'INT_UART2' macro redefined [-Wmacro-redefined]
+#define INT_UART2               INT_CONCAT(INT_UART2_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(79): note: previous definition is here
+#define INT_UART2               49          // UART2
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(454): warning: 'INT_UART3' macro redefined [-Wmacro-redefined]
+#define INT_UART3               INT_CONCAT(INT_UART3_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(98): note: previous definition is here
+#define INT_UART3               75          // UART3
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(455): warning: 'INT_UART4' macro redefined [-Wmacro-redefined]
+#define INT_UART4               INT_CONCAT(INT_UART4_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(99): note: previous definition is here
+#define INT_UART4               76          // UART4
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(456): warning: 'INT_UART5' macro redefined [-Wmacro-redefined]
+#define INT_UART5               INT_CONCAT(INT_UART5_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(100): note: previous definition is here
+#define INT_UART5               77          // UART5
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(457): warning: 'INT_UART6' macro redefined [-Wmacro-redefined]
+#define INT_UART6               INT_CONCAT(INT_UART6_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(101): note: previous definition is here
+#define INT_UART6               78          // UART6
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(458): warning: 'INT_UART7' macro redefined [-Wmacro-redefined]
+#define INT_UART7               INT_CONCAT(INT_UART7_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(102): note: previous definition is here
+#define INT_UART7               79          // UART7
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(459): warning: 'INT_UDMA' macro redefined [-Wmacro-redefined]
+#define INT_UDMA                INT_CONCAT(INT_UDMA_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(90): note: previous definition is here
+#define INT_UDMA                62          // uDMA Software
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(460): warning: 'INT_UDMAERR' macro redefined [-Wmacro-redefined]
+#define INT_UDMAERR             INT_CONCAT(INT_UDMAERR_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(91): note: previous definition is here
+#define INT_UDMAERR             63          // uDMA Error
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(461): warning: 'INT_USB0' macro redefined [-Wmacro-redefined]
+#define INT_USB0                INT_CONCAT(INT_USB0_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(88): note: previous definition is here
+#define INT_USB0                60          // USB
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(462): warning: 'INT_WATCHDOG' macro redefined [-Wmacro-redefined]
+#define INT_WATCHDOG            INT_CONCAT(INT_WATCHDOG_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(66): note: previous definition is here
+#define INT_WATCHDOG            34          // Watchdog Timers 0 and 1
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(463): warning: 'INT_WTIMER0A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER0A            INT_CONCAT(INT_WTIMER0A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(109): note: previous definition is here
+#define INT_WTIMER0A            110         // 32/64-Bit Timer 0A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(464): warning: 'INT_WTIMER0B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER0B            INT_CONCAT(INT_WTIMER0B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(110): note: previous definition is here
+#define INT_WTIMER0B            111         // 32/64-Bit Timer 0B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(465): warning: 'INT_WTIMER1A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER1A            INT_CONCAT(INT_WTIMER1A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(111): note: previous definition is here
+#define INT_WTIMER1A            112         // 32/64-Bit Timer 1A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(466): warning: 'INT_WTIMER1B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER1B            INT_CONCAT(INT_WTIMER1B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(112): note: previous definition is here
+#define INT_WTIMER1B            113         // 32/64-Bit Timer 1B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(467): warning: 'INT_WTIMER2A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER2A            INT_CONCAT(INT_WTIMER2A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(113): note: previous definition is here
+#define INT_WTIMER2A            114         // 32/64-Bit Timer 2A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(468): warning: 'INT_WTIMER2B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER2B            INT_CONCAT(INT_WTIMER2B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(114): note: previous definition is here
+#define INT_WTIMER2B            115         // 32/64-Bit Timer 2B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(469): warning: 'INT_WTIMER3A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER3A            INT_CONCAT(INT_WTIMER3A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(115): note: previous definition is here
+#define INT_WTIMER3A            116         // 32/64-Bit Timer 3A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(470): warning: 'INT_WTIMER3B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER3B            INT_CONCAT(INT_WTIMER3B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(116): note: previous definition is here
+#define INT_WTIMER3B            117         // 32/64-Bit Timer 3B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(471): warning: 'INT_WTIMER4A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER4A            INT_CONCAT(INT_WTIMER4A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(117): note: previous definition is here
+#define INT_WTIMER4A            118         // 32/64-Bit Timer 4A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(472): warning: 'INT_WTIMER4B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER4B            INT_CONCAT(INT_WTIMER4B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(118): note: previous definition is here
+#define INT_WTIMER4B            119         // 32/64-Bit Timer 4B
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(473): warning: 'INT_WTIMER5A' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER5A            INT_CONCAT(INT_WTIMER5A_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(119): note: previous definition is here
+#define INT_WTIMER5A            120         // 32/64-Bit Timer 5A
+        ^
+main.c(17): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_ints.h(474): warning: 'INT_WTIMER5B' macro redefined [-Wmacro-redefined]
+#define INT_WTIMER5B            INT_CONCAT(INT_WTIMER5B_, INT_DEVICE_CLASS)
+        ^
+C:/ti/TivaWare_C_Series-2.2.0.295\inc\tm4c123gh6pm.h(120): note: previous definition is here
+#define INT_WTIMER5B            121         // 32/64-Bit Timer 5B
+        ^
+main.c(18): warning: non-portable path to file '"TM4C123GH6PM.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "tm4c123gh6pm.h"
+         ^~~~~~~~~~~~~~~~
+         "TM4C123GH6PM.h"
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(51): warning: 'WATCHDOG0_BASE' macro redefined [-Wmacro-redefined]
+#define WATCHDOG0_BASE          0x40000000  // Watchdog0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1543): note: previous definition is here
+#define WATCHDOG0_BASE                  0x40000000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(52): warning: 'WATCHDOG1_BASE' macro redefined [-Wmacro-redefined]
+#define WATCHDOG1_BASE          0x40001000  // Watchdog1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1544): note: previous definition is here
+#define WATCHDOG1_BASE                  0x40001000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(57): warning: 'SSI0_BASE' macro redefined [-Wmacro-redefined]
+#define SSI0_BASE               0x40008000  // SSI0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1549): note: previous definition is here
+#define SSI0_BASE                       0x40008000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(58): warning: 'SSI1_BASE' macro redefined [-Wmacro-redefined]
+#define SSI1_BASE               0x40009000  // SSI1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1550): note: previous definition is here
+#define SSI1_BASE                       0x40009000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(59): warning: 'SSI2_BASE' macro redefined [-Wmacro-redefined]
+#define SSI2_BASE               0x4000A000  // SSI2
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1551): note: previous definition is here
+#define SSI2_BASE                       0x4000A000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(60): warning: 'SSI3_BASE' macro redefined [-Wmacro-redefined]
+#define SSI3_BASE               0x4000B000  // SSI3
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1552): note: previous definition is here
+#define SSI3_BASE                       0x4000B000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(61): warning: 'UART0_BASE' macro redefined [-Wmacro-redefined]
+#define UART0_BASE              0x4000C000  // UART0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1553): note: previous definition is here
+#define UART0_BASE                      0x4000C000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(62): warning: 'UART1_BASE' macro redefined [-Wmacro-redefined]
+#define UART1_BASE              0x4000D000  // UART1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1554): note: previous definition is here
+#define UART1_BASE                      0x4000D000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(63): warning: 'UART2_BASE' macro redefined [-Wmacro-redefined]
+#define UART2_BASE              0x4000E000  // UART2
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1555): note: previous definition is here
+#define UART2_BASE                      0x4000E000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(64): warning: 'UART3_BASE' macro redefined [-Wmacro-redefined]
+#define UART3_BASE              0x4000F000  // UART3
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1556): note: previous definition is here
+#define UART3_BASE                      0x4000F000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(65): warning: 'UART4_BASE' macro redefined [-Wmacro-redefined]
+#define UART4_BASE              0x40010000  // UART4
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1557): note: previous definition is here
+#define UART4_BASE                      0x40010000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(66): warning: 'UART5_BASE' macro redefined [-Wmacro-redefined]
+#define UART5_BASE              0x40011000  // UART5
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1558): note: previous definition is here
+#define UART5_BASE                      0x40011000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(67): warning: 'UART6_BASE' macro redefined [-Wmacro-redefined]
+#define UART6_BASE              0x40012000  // UART6
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1559): note: previous definition is here
+#define UART6_BASE                      0x40012000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(68): warning: 'UART7_BASE' macro redefined [-Wmacro-redefined]
+#define UART7_BASE              0x40013000  // UART7
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1560): note: previous definition is here
+#define UART7_BASE                      0x40013000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(69): warning: 'I2C0_BASE' macro redefined [-Wmacro-redefined]
+#define I2C0_BASE               0x40020000  // I2C0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1561): note: previous definition is here
+#define I2C0_BASE                       0x40020000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(70): warning: 'I2C1_BASE' macro redefined [-Wmacro-redefined]
+#define I2C1_BASE               0x40021000  // I2C1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1562): note: previous definition is here
+#define I2C1_BASE                       0x40021000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(71): warning: 'I2C2_BASE' macro redefined [-Wmacro-redefined]
+#define I2C2_BASE               0x40022000  // I2C2
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1563): note: previous definition is here
+#define I2C2_BASE                       0x40022000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(72): warning: 'I2C3_BASE' macro redefined [-Wmacro-redefined]
+#define I2C3_BASE               0x40023000  // I2C3
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1564): note: previous definition is here
+#define I2C3_BASE                       0x40023000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(77): warning: 'PWM0_BASE' macro redefined [-Wmacro-redefined]
+#define PWM0_BASE               0x40028000  // Pulse Width Modulator (PWM)
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1567): note: previous definition is here
+#define PWM0_BASE                       0x40028000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(78): warning: 'PWM1_BASE' macro redefined [-Wmacro-redefined]
+#define PWM1_BASE               0x40029000  // Pulse Width Modulator (PWM)
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1568): note: previous definition is here
+#define PWM1_BASE                       0x40029000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(79): warning: 'QEI0_BASE' macro redefined [-Wmacro-redefined]
+#define QEI0_BASE               0x4002C000  // QEI0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1569): note: previous definition is here
+#define QEI0_BASE                       0x4002C000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(80): warning: 'QEI1_BASE' macro redefined [-Wmacro-redefined]
+#define QEI1_BASE               0x4002D000  // QEI1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1570): note: previous definition is here
+#define QEI1_BASE                       0x4002D000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(81): warning: 'TIMER0_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER0_BASE             0x40030000  // Timer0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1571): note: previous definition is here
+#define TIMER0_BASE                     0x40030000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(82): warning: 'TIMER1_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER1_BASE             0x40031000  // Timer1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1572): note: previous definition is here
+#define TIMER1_BASE                     0x40031000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(83): warning: 'TIMER2_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER2_BASE             0x40032000  // Timer2
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1573): note: previous definition is here
+#define TIMER2_BASE                     0x40032000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(84): warning: 'TIMER3_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER3_BASE             0x40033000  // Timer3
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1574): note: previous definition is here
+#define TIMER3_BASE                     0x40033000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(85): warning: 'TIMER4_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER4_BASE             0x40034000  // Timer4
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1575): note: previous definition is here
+#define TIMER4_BASE                     0x40034000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(86): warning: 'TIMER5_BASE' macro redefined [-Wmacro-redefined]
+#define TIMER5_BASE             0x40035000  // Timer5
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1576): note: previous definition is here
+#define TIMER5_BASE                     0x40035000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(87): warning: 'WTIMER0_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER0_BASE            0x40036000  // Wide Timer0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1577): note: previous definition is here
+#define WTIMER0_BASE                    0x40036000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(88): warning: 'WTIMER1_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER1_BASE            0x40037000  // Wide Timer1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1578): note: previous definition is here
+#define WTIMER1_BASE                    0x40037000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(89): warning: 'ADC0_BASE' macro redefined [-Wmacro-redefined]
+#define ADC0_BASE               0x40038000  // ADC0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1579): note: previous definition is here
+#define ADC0_BASE                       0x40038000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(90): warning: 'ADC1_BASE' macro redefined [-Wmacro-redefined]
+#define ADC1_BASE               0x40039000  // ADC1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1580): note: previous definition is here
+#define ADC1_BASE                       0x40039000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(91): warning: 'COMP_BASE' macro redefined [-Wmacro-redefined]
+#define COMP_BASE               0x4003C000  // Analog comparators
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1581): note: previous definition is here
+#define COMP_BASE                       0x4003C000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(93): warning: 'CAN0_BASE' macro redefined [-Wmacro-redefined]
+#define CAN0_BASE               0x40040000  // CAN0
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1582): note: previous definition is here
+#define CAN0_BASE                       0x40040000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(94): warning: 'CAN1_BASE' macro redefined [-Wmacro-redefined]
+#define CAN1_BASE               0x40041000  // CAN1
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1583): note: previous definition is here
+#define CAN1_BASE                       0x40041000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(95): warning: 'WTIMER2_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER2_BASE            0x4004C000  // Wide Timer2
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1584): note: previous definition is here
+#define WTIMER2_BASE                    0x4004C000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(96): warning: 'WTIMER3_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER3_BASE            0x4004D000  // Wide Timer3
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1585): note: previous definition is here
+#define WTIMER3_BASE                    0x4004D000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(97): warning: 'WTIMER4_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER4_BASE            0x4004E000  // Wide Timer4
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1586): note: previous definition is here
+#define WTIMER4_BASE                    0x4004E000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(98): warning: 'WTIMER5_BASE' macro redefined [-Wmacro-redefined]
+#define WTIMER5_BASE            0x4004F000  // Wide Timer5
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1587): note: previous definition is here
+#define WTIMER5_BASE                    0x4004F000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(99): warning: 'USB0_BASE' macro redefined [-Wmacro-redefined]
+#define USB0_BASE               0x40050000  // USB 0 Controller
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1588): note: previous definition is here
+#define USB0_BASE                       0x40050000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(121): warning: 'EEPROM_BASE' macro redefined [-Wmacro-redefined]
+#define EEPROM_BASE             0x400AF000  // EEPROM memory
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1595): note: previous definition is here
+#define EEPROM_BASE                     0x400AF000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(133): warning: 'SYSEXC_BASE' macro redefined [-Wmacro-redefined]
+#define SYSEXC_BASE             0x400F9000  // System Exception Module
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1596): note: previous definition is here
+#define SYSEXC_BASE                     0x400F9000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(134): warning: 'HIB_BASE' macro redefined [-Wmacro-redefined]
+#define HIB_BASE                0x400FC000  // Hibernation Module
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1597): note: previous definition is here
+#define HIB_BASE                        0x400FC000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(135): warning: 'FLASH_CTRL_BASE' macro redefined [-Wmacro-redefined]
+#define FLASH_CTRL_BASE         0x400FD000  // FLASH Controller
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1598): note: previous definition is here
+#define FLASH_CTRL_BASE                 0x400FD000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(136): warning: 'SYSCTL_BASE' macro redefined [-Wmacro-redefined]
+#define SYSCTL_BASE             0x400FE000  // System Control
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1599): note: previous definition is here
+#define SYSCTL_BASE                     0x400FE000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(137): warning: 'UDMA_BASE' macro redefined [-Wmacro-redefined]
+#define UDMA_BASE               0x400FF000  // uDMA Controller
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\tm4c123gh6pm.h(1600): note: previous definition is here
+#define UDMA_BASE                       0x400FF000UL
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(145): warning: 'ITM_BASE' macro redefined [-Wmacro-redefined]
+#define ITM_BASE                0xE0000000  // Instrumentation Trace Macrocell
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\core_cm4.h(1551): note: previous definition is here
+#define ITM_BASE            (0xE0000000UL)                            /*!< ITM Base Address */
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(146): warning: 'DWT_BASE' macro redefined [-Wmacro-redefined]
+#define DWT_BASE                0xE0001000  // Data Watchpoint and Trace
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\core_cm4.h(1552): note: previous definition is here
+#define DWT_BASE            (0xE0001000UL)                            /*!< DWT Base Address */
+        ^
+main.c(19): warning: In file included from...
+C:/ti/TivaWare_C_Series-2.2.0.295\inc/hw_memmap.h(148): warning: 'NVIC_BASE' macro redefined [-Wmacro-redefined]
+#define NVIC_BASE               0xE000E000  // Nested Vectored Interrupt Ctrl
+        ^
+C:/Users/user/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include\core_cm4.h(1556): note: previous definition is here
+#define NVIC_BASE           (SCS_BASE +  0x0100UL)                    /*!< NVIC Base Address */
+        ^
+main.c(26): warning: non-portable path to file '"driverlib/gpio.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "driverlib/GPIO.h"
+         ^~~~~~~~~~~~~~~~~~
+         "driverlib/gpio.h"
+main.c(27): warning: In file included from...
+./lcdConfig.h(21): warning: non-portable path to file '"TM4C123GH6PM.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "tm4c123gh6pm.h"
+         ^~~~~~~~~~~~~~~~
+         "TM4C123GH6PM.h"
+./lcdConfig.h(29): warning: non-portable path to file '"driverlib/gpio.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "driverlib/GPIO.h"
+         ^~~~~~~~~~~~~~~~~~
+         "driverlib/gpio.h"
+main.c(28): warning: In file included from...
+./adcConfig.h(18): warning: non-portable path to file '"TM4C123GH6PM.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "tm4c123gh6pm.h"
+         ^~~~~~~~~~~~~~~~
+         "TM4C123GH6PM.h"
+./adcConfig.h(26): warning: non-portable path to file '"driverlib/gpio.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "driverlib/GPIO.h"
+         ^~~~~~~~~~~~~~~~~~
+         "driverlib/gpio.h"
+main.c(28): warning: In file included from...
+./adcConfig.h(27): warning: In file included from...
+./lcdConfig.h(21): warning: non-portable path to file '"TM4C123GH6PM.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "tm4c123gh6pm.h"
+         ^~~~~~~~~~~~~~~~
+         "TM4C123GH6PM.h"
+./lcdConfig.h(29): warning: non-portable path to file '"driverlib/gpio.h"'; specified path differs in case from file name on disk [-Wnonportable-include-path]
+#include "driverlib/GPIO.h"
+         ^~~~~~~~~~~~~~~~~~
+         "driverlib/gpio.h"
+main.c(35): warning: no previous prototype for function 'toString' [-Wmissing-prototypes]
+void toString(char tim, char text[])
+     ^
+main.c(35): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void toString(char tim, char text[])
+^
+static 
+main.c(54): warning: no previous prototype for function 'printchar' [-Wmissing-prototypes]
+void printchar(char c)
+     ^
+main.c(54): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void printchar(char c)
+^
+static 
+main.c(62): warning: no previous prototype for function 'print' [-Wmissing-prototypes]
+void print(char *string)
+     ^
+main.c(62): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void print(char *string)
+^
+static 
+main.c(87): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        }; // safety for clock initialization
+         ^
+main.c(96): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        }; // safety for clock initialization
+         ^
+main.c(104): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        UART0_CTL_R &= ~0x0001;                  // Disable UART0 Before initilization
+                    ~~ ^~~~~~~
+main.c(72): warning: no previous prototype for function 'gpiosInit' [-Wmissing-prototypes]
+void gpiosInit()
+     ^
+main.c(72): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void gpiosInit()
+^
+static 
+main.c(72): warning: this old-style function definition is not preceded by a prototype [-Wstrict-prototypes]
+void gpiosInit()
+              ^
+main.c(130): warning: incompatible integer to pointer conversion assigning to 'char *' from 'int' [-Wint-conversion]
+        on = 1;
+           ^ ~
+main.c(143): warning: implicit conversion loses integer precision: 'int' to 'unsigned char' [-Wimplicit-int-conversion]
+                Temperature = (int)mV;                                   // Temp as integer
+                            ~ ^~~~~~~
+main.c(150): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        GPIO_PORTE_DATA_R &= ~0x02; // Heater Led OFF
+                                          ~~ ^~~~~
+main.c(118): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+void TASK1(void *pvParameters)
+                 ^
+main.c(118): warning: no previous prototype for function 'TASK1' [-Wmissing-prototypes]
+void TASK1(void *pvParameters)
+     ^
+main.c(118): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void TASK1(void *pvParameters)
+^
+static 
+main.c(119): warning: function 'TASK1' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(178): warning: incompatible pointer types passing 'unsigned int *' to parameter of type 'char *' [-Wincompatible-pointer-types]
+                        print(&N); //Print the number
+                              ^~
+main.c(62): note: passing argument to parameter 'string' here
+void print(char *string)
+                 ^
+main.c(182): warning: implicit conversion loses integer precision: 'unsigned int' to 'unsigned char' [-Wimplicit-int-conversion]
+                        Total = 10 * Total + N; //Total Number
+                              ~ ~~~~~~~~~~~^~~
+main.c(166): warning: unused variable 'AdcValue' [-Wunused-variable]
+        unsigned AdcValue;
+                 ^
+main.c(163): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+void TASK2(void *pvParameters)
+                 ^
+main.c(163): warning: no previous prototype for function 'TASK2' [-Wmissing-prototypes]
+void TASK2(void *pvParameters)
+     ^
+main.c(163): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void TASK2(void *pvParameters)
+^
+static 
+main.c(164): warning: function 'TASK2' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(190): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+void TASK3(void *pvParameters)
+                 ^
+main.c(190): warning: no previous prototype for function 'TASK3' [-Wmissing-prototypes]
+void TASK3(void *pvParameters)
+     ^
+main.c(190): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void TASK3(void *pvParameters)
+^
+static 
+main.c(191): warning: function 'TASK3' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(227): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        GPIO_PORTE_DATA_R &= ~0x05; // Buzzer & Buzzer Led OFF
+                                          ~~ ^~~~~
+main.c(214): warning: unused parameter 'pvParameters' [-Wunused-parameter]
+void TASK4(void *pvParameters)
+                 ^
+main.c(214): warning: no previous prototype for function 'TASK4' [-Wmissing-prototypes]
+void TASK4(void *pvParameters)
+     ^
+main.c(214): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void TASK4(void *pvParameters)
+^
+static 
+main.c(215): warning: function 'TASK4' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(30): warning: no previous extern declaration for non-static variable 'xUARTQueue' [-Wmissing-variable-declarations]
+QueueHandle_t xUARTQueue;
+              ^
+main.c(30): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+QueueHandle_t xUARTQueue;
+^
+main.c(31): warning: no previous extern declaration for non-static variable 'xLCDQueue' [-Wmissing-variable-declarations]
+QueueHandle_t xLCDQueue;
+              ^
+main.c(31): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+QueueHandle_t xLCDQueue;
+^
+main.c(32): warning: no previous extern declaration for non-static variable 'xBuzzerQueue' [-Wmissing-variable-declarations]
+QueueHandle_t xBuzzerQueue;
+              ^
+main.c(32): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+QueueHandle_t xBuzzerQueue;
+^
+209 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=9992 RO-data=656 RW-data=8 ZI-data=30968  
+".\Objects\TempProj_Team17.axf" - 0 Error(s), 209 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.4.6.pack
+                ARM.CMSIS-FreeRTOS.10.4.6
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Config Variant: FreeRTOS Version: 10.4.6
+   * Component: Core Variant: Cortex-M Version: 10.4.6
+   * Component: Heap Variant: Heap_1 Version: 10.4.6
+   * Component: Timers Version: 10.4.6
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\RTOS
+  .\RTE\_Target_1
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\user\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM.FreeRTOS::RTOS:Config:FreeRTOS:10.4.6
+      Include file:  Config\ARMCM\FreeRTOSConfig.h
+
+   * Component: ARM.FreeRTOS::RTOS:Core:Cortex-M:10.4.6
+      Source file:   Source\queue.c
+      Include file:  Source\include\task.h
+      Include file:  Source\include\FreeRTOS.h
+      Include file:  Source\include\queue.h
+      Source file:   Source\list.c
+      Source file:   Source\tasks.c
+      Include file:  Source\include\semphr.h
+      Source file:   Source\portable\GCC\ARM_CM4F\port.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_1:10.4.6
+      Source file:   Source\portable\MemMang\heap_1.c
+
+   * Component: ARM.FreeRTOS::RTOS:Timers:10.4.6
+      Source file:   Source\timers.c
+      Include file:  Source\include\timers.h
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+      Source file:   Device\Source\system_TM4C123.c
+Build Time Elapsed:  00:00:09
+</pre>
+</body>
+</html>
